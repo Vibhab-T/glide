@@ -180,6 +180,8 @@ bind/44/pose = Transform3D(-0.99280274, 0.11937319, 0.009585102, -0.11966439, -0
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sweqy"]
 albedo_texture = ExtResource("2_x3wgy")
 
+[sub_resource type="SphereShape3D" id="SphereShape3D_fkybt"]
+
 [node name="Player" type="CharacterBody3D" unique_id=1002925699]
 script = ExtResource("1_fkybt")
 
@@ -612,5 +614,11 @@ libraries/idle = ExtResource("3_3smsa")
 libraries/jump = ExtResource("4_8erm5")
 libraries/run = ExtResource("5_f1ek2")
 
-[node name="Camera3D" type="Camera3D" parent="." unique_id=2027872423]
-transform = Transform3D(1, 0, 0, 0, 0.9219308, 0.3873547, 0, -0.3873547, 0.9219308, 0.19832033, 4.078969, 4.0891037)
+[node name="CameraPivot" type="Node3D" parent="." unique_id=1146485025]
+transform = Transform3D(1, 0, 0, 0, 0.93324226, 0.35924768, 0, -0.35924768, 0.93324226, 0, 2.7981634, 0)
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot" unique_id=551525773]
+shape = SubResource("SphereShape3D_fkybt")
+spring_length = 8.0
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D" unique_id=1563630445]
