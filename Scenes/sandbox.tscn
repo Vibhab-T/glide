@@ -1,0 +1,148 @@
+[gd_scene format=3 uid="uid://bcrbnyhomwrsn"]
+
+[ext_resource type="PackedScene" uid="uid://db4lsju2fa5ur" path="res://Scenes/player.tscn" id="1_d7bho"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3h184"]
+albedo_color = Color(0, 0.8278007, 0, 1)
+
+[node name="Sandbox" type="Node3D" unique_id=1717853064]
+
+[node name="Valley" type="Node" parent="." unique_id=375548275]
+
+[node name="Floor" type="CSGBox3D" parent="Valley" unique_id=1823799055]
+use_collision = true
+size = Vector3(1000, 1, 1000)
+material = SubResource("StandardMaterial3D_3h184")
+
+[node name="Mountain" type="CSGBox3D" parent="Valley" unique_id=437568339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 55.854958, -122.61621)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain2" type="CSGBox3D" parent="Valley" unique_id=791521366]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.150055, 55.854958, -107.92885)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain3" type="CSGBox3D" parent="Valley" unique_id=1253151666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.39148, 55.854958, -117.9556)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain4" type="CSGBox3D" parent="Valley" unique_id=1316842113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.09544, 55.854958, -117.9556)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain5" type="CSGBox3D" parent="Valley" unique_id=259346536]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.611908, 55.854958, -84.39006)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain6" type="CSGBox3D" parent="Valley" unique_id=1382790289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.4207, 55.854958, -84.39006)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain7" type="CSGBox3D" parent="Valley" unique_id=99653526]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.04521, 55.854958, -84.39006)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain8" type="CSGBox3D" parent="Valley" unique_id=1180808068]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.04521, 55.854958, -116.535645)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain9" type="CSGBox3D" parent="Valley" unique_id=1742063198]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150.18404, 55.854958, -68.264694)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain10" type="CSGBox3D" parent="Valley" unique_id=73562576]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150.18404, 55.854958, -46.388367)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain11" type="CSGBox3D" parent="Valley" unique_id=510317314]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 177.70491, 55.854958, -46.388367)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain12" type="CSGBox3D" parent="Valley" unique_id=1594683295]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 177.70491, 55.854958, -19.168976)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain13" type="CSGBox3D" parent="Valley" unique_id=1393072775]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 177.70491, 55.854958, 3.479599)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain14" type="CSGBox3D" parent="Valley" unique_id=393851597]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 202.0785, 55.854958, 3.479599)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain15" type="CSGBox3D" parent="Valley" unique_id=30279767]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 202.0785, 55.854958, 29.47525)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain16" type="CSGBox3D" parent="Valley" unique_id=71578765]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 202.0785, 55.854958, 55.581467)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain17" type="CSGBox3D" parent="Valley" unique_id=99498635]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 202.0785, 55.854958, 79.559845)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain18" type="CSGBox3D" parent="Valley" unique_id=51640769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 202.0785, 55.854958, 102.51753)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain19" type="CSGBox3D" parent="Valley" unique_id=885492684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 185.85762, 55.854958, 102.51753)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain20" type="CSGBox3D" parent="Valley" unique_id=488051226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 182.01167, 55.854958, 69.984634)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain21" type="CSGBox3D" parent="Valley" unique_id=931242979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 228.18849, 55.854958, 51.35443)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain22" type="CSGBox3D" parent="Valley" unique_id=461125106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.2422, 55.854958, 51.35443)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain23" type="CSGBox3D" parent="Valley" unique_id=196956166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.2422, 55.854958, 93.20711)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain24" type="CSGBox3D" parent="Valley" unique_id=169312916]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.2422, 55.854958, 125.7845)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain25" type="CSGBox3D" parent="Valley" unique_id=1170375164]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.2422, 55.854958, 151.15028)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Mountain26" type="CSGBox3D" parent="Valley" unique_id=927104292]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.2422, 55.854958, 151.15028)
+use_collision = true
+size = Vector3(15, 100, 15)
+
+[node name="Player" parent="." unique_id=1002925699 instance=ExtResource("1_d7bho")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 109.56378, -121.87629)
